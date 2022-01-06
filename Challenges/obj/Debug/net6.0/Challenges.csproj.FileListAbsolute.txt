@@ -4,7 +4,6 @@ C:\Users\rakes\OneDrive\Desktop\Dotnet\Challenges\bin\Debug\net6.0\Challenges.ru
 C:\Users\rakes\OneDrive\Desktop\Dotnet\Challenges\bin\Debug\net6.0\Challenges.dll
 C:\Users\rakes\OneDrive\Desktop\Dotnet\Challenges\bin\Debug\net6.0\ref\Challenges.dll
 C:\Users\rakes\OneDrive\Desktop\Dotnet\Challenges\bin\Debug\net6.0\Challenges.pdb
-C:\Users\rakes\OneDrive\Desktop\Dotnet\Challenges\obj\Debug\net6.0\Challenges.csproj.AssemblyReference.cache
 C:\Users\rakes\OneDrive\Desktop\Dotnet\Challenges\obj\Debug\net6.0\Challenges.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\rakes\OneDrive\Desktop\Dotnet\Challenges\obj\Debug\net6.0\Challenges.AssemblyInfoInputs.cache
 C:\Users\rakes\OneDrive\Desktop\Dotnet\Challenges\obj\Debug\net6.0\Challenges.AssemblyInfo.cs
