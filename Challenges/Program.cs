@@ -28,6 +28,18 @@ namespace Challenges
             Console.WriteLine("[{0}]", string.Join(", ", arrayofMultiples.Evaluate(7, 5)));
             Console.WriteLine("[{0}]", string.Join(", ", arrayofMultiples.Evaluate(12, 10)));
             Console.WriteLine("[{0}]", string.Join(", ", arrayofMultiples.Evaluate(17, 6)));
+
+            ReverseTheCase reverseTheCase = new ReverseTheCase();
+            Console.WriteLine("ReverseTheCase");
+            Console.WriteLine("Happy Birthday - " + reverseTheCase.Evaluate("Happy Birthday"));
+            Console.WriteLine("MANY THANKS - " + reverseTheCase.Evaluate("MANY THANKS"));
+            Console.WriteLine("sPoNtAnEoUs - " + reverseTheCase.Evaluate("sPoNtAnEoUs"));
+
+            FindtheBomb findtheBomb = new FindtheBomb();
+            Console.WriteLine("FindtheBomb");
+            Console.WriteLine("There is a bomb. - " + findtheBomb.Evaluate("There is a bomb."));
+            Console.WriteLine("Hey, did you think there is a bomb? - " + findtheBomb.Evaluate("Hey, did you think there is a bomb?"));
+            Console.WriteLine("This goes boom!!! - " + findtheBomb.Evaluate("This goes boom!!!"));
         }
     }
 }
