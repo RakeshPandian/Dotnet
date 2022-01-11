@@ -61,6 +61,28 @@ namespace Challenges
             Console.WriteLine("new int[] { 5, 5, 10, 10, 15, 15, 20 }, 120 - " + imaginaryInterview.Evaluate(new int[] { 5, 5, 10, 10, 15, 15, 20 }, 120));
             Console.WriteLine("new int[] { 5, 5, 10, 10, 15, 15, 20, 20 }, 130 - " + imaginaryInterview.Evaluate(new int[] { 5, 5, 10, 10, 15, 15, 20, 20 }, 130));
 
+            SmoothSentences smoothSentences = new SmoothSentences();
+            Console.WriteLine("SmoothSentences");
+            Console.WriteLine("Marta appreciated deep perpendicular right trapezoids. - " + smoothSentences.Evaluate("Marta appreciated deep perpendicular right trapezoids"));
+            Console.WriteLine("Someone is outside the doorway. - " + smoothSentences.Evaluate("Someone is outside the doorway"));
+            Console.WriteLine("She eats super righteously. - " + smoothSentences.Evaluate("She eats super righteously"));
+            Console.WriteLine("Rakesh have eligibility. - " + smoothSentences.Evaluate("Rakesh have eligibility"));
+
+            AlmostPalindrome almostPalindrome = new AlmostPalindrome();
+            Console.WriteLine("AlmostPalindrome");
+            Console.WriteLine("abcdcbg. - " + almostPalindrome.Evaluate("abcdcbg"));
+            Console.WriteLine("abccia. - " + almostPalindrome.Evaluate("abccia"));
+            Console.WriteLine("abcdaaa. - " + almostPalindrome.Evaluate("abcdaaa"));
+            Console.WriteLine("1234312. - " + almostPalindrome.Evaluate("1234312"));
+
+            SockPairs sockPairs = new SockPairs();
+
+            Console.WriteLine("SockPairs");
+            Console.WriteLine("AA. - " + sockPairs.Evaluate("AA"));
+            Console.WriteLine("ABABC. - " + sockPairs.Evaluate("ABABC"));
+            Console.WriteLine("CABBACCC. - " + sockPairs.Evaluate("CABBACCC"));
+            Console.WriteLine("CABBACCCAAB. - " + sockPairs.Evaluate("CABBACCCAAB"));
+
             #endregion
         }
     }

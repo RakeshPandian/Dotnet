@@ -12,4 +12,3 @@ C:\Users\rakes\OneDrive\Desktop\Dotnet\Challenges\obj\Debug\net6.0\Challenges.dl
 C:\Users\rakes\OneDrive\Desktop\Dotnet\Challenges\obj\Debug\net6.0\ref\Challenges.dll
 C:\Users\rakes\OneDrive\Desktop\Dotnet\Challenges\obj\Debug\net6.0\Challenges.pdb
 C:\Users\rakes\OneDrive\Desktop\Dotnet\Challenges\obj\Debug\net6.0\Challenges.genruntimeconfig.cache
-C:\Users\rakes\OneDrive\Desktop\Dotnet\Challenges\obj\Debug\net6.0\Challenges.csproj.AssemblyReference.cache
