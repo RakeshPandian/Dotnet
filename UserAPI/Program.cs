@@ -1,5 +1,9 @@
-var builder = WebApplication.CreateBuilder(args);
+using UserAPI.Model;
+using UserAPI.Services;
 
+var builder = WebApplication.CreateBuilder(args);
+builder.Services.Configure<UsersDatabaseSettings>(builder.Configuration.GetSection("UsersDatabase"));
+builder.Services.AddSingleton<UserService>();
 // Add services to the container.
 
 builder.Services.AddControllers();
