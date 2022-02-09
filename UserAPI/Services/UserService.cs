@@ -17,6 +17,7 @@ public class UserService
         var mongoDatabase = mongoClient.GetDatabase(usersDatabaseSettings.Value.DatabaseName);
 
         _usersCollection = mongoDatabase.GetCollection<User>(usersDatabaseSettings.Value.UsersCollectionName);
+        //Console.WriteLine(_usersCollection.Find(_ => true).ToList());
     }
 
     public async Task<List<User>> GetAsync() =>

@@ -6,6 +6,7 @@ namespace UserAPI.Controllers;
 
 [ApiController]
 [Route("api/[controller]")]
+[Produces("application/json")]
 public class UsersController : ControllerBase
 {
     private readonly UserService _userService;
