@@ -25,6 +25,8 @@ public class UserService
 
     public async Task<User?> GetAsync(string id) =>
         await _usersCollection.Find(x => x.Id == id).FirstOrDefaultAsync();
+    public async Task<List<User>> SearchAsync(string name) =>
+        await _usersCollection.Find(x => x.FirstName.ToLower().Contains(name.ToLower()) || x.LastName.ToLower().Contains(name.ToLower())).ToListAsync();
 
     public async Task CreateAsync(User newBook) =>
         await _usersCollection.InsertOneAsync(newBook);

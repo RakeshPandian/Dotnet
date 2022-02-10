@@ -31,6 +31,19 @@ public class UsersController : ControllerBase
         return user;
     }
 
+    [HttpGet("{name}")]
+    public async Task<ActionResult<List<User>>> Search(string name)
+    {
+        var user = await _userService.SearchAsync(name);
+
+        if (user is null)
+        {
+            return NotFound();
+        }
+
+        return user;
+    }
+
     [HttpPost]
     public async Task<IActionResult> Post(User newUser)
     {
