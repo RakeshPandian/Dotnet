@@ -40,3 +40,4 @@ C:\Users\rakes\OneDrive\Desktop\Dotnet\UserAPI\bin\Debug\net6.0\runtimes\win\nat
 C:\Users\rakes\OneDrive\Desktop\Dotnet\UserAPI\bin\Debug\net6.0\runtimes\linux\native\libmongocrypt.so
 C:\Users\rakes\OneDrive\Desktop\Dotnet\UserAPI\bin\Debug\net6.0\runtimes\osx\native\libmongocrypt.dylib
 C:\Users\rakes\OneDrive\Desktop\Dotnet\UserAPI\bin\Debug\net6.0\runtimes\win\native\mongocrypt.dll
+C:\Users\rakes\OneDrive\Desktop\Dotnet\UserAPI\obj\Debug\net6.0\UserAPI.csproj.AssemblyReference.cache

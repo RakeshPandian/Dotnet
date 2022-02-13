@@ -20,6 +20,15 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
+app.Use(async (context, next) =>
+{
+    context.Response.Headers.Add("Access-Control-Allow-Methods", "GET,PUT,POST,DELETE,HEAD,OPTIONS");
+    context.Response.Headers.Add("Access-Control-Allow-Headers", "Origin, Content-Type,append,delete,entries,foreach,get,has,keys,set,values,Authorization");
+    context.Response.Headers.Add("Access-Control-Allow-Origin", "*");
+
+    await next();
+});
+
 app.UseAuthorization();
 
 app.MapControllers();
