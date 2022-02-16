@@ -47,7 +47,13 @@ public class UsersController : ControllerBase
     [HttpPost]
     public async Task<IActionResult> Post(User newUser)
     {
+        if (string.IsNullOrEmpty(newUser.Email))
+        {
+            ModelState.AddModelError("Email", "Employee is required");
+            return BadRequest(ModelState);
+        }
         await _userService.CreateAsync(newUser);
+
 
         return CreatedAtAction(nameof(Get), new { id = newUser.Id }, newUser);
     }
@@ -55,14 +61,20 @@ public class UsersController : ControllerBase
     [HttpPut("{id:length(24)}")]
     public async Task<IActionResult> Update(string id, User updatedUser)
     {
-        var book = await _userService.GetAsync(id);
+        var user = await _userService.GetAsync(id);
 
-        if (book is null)
+        if (user is null)
         {
             return NotFound();
         }
 
-        updatedUser.Id = book.Id;
+        if (string.IsNullOrEmpty(user.Email))
+        {
+            ModelState.AddModelError("Email", "Employee is required");
+            return BadRequest(ModelState);
+        }
+
+        updatedUser.Id = user.Id;
 
         await _userService.UpdateAsync(id, updatedUser);
 

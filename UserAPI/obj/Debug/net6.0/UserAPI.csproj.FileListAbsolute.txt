@@ -40,3 +40,4 @@ C:\Users\rakes\OneDrive\Desktop\Dotnet\UserAPI\obj\Debug\net6.0\UserAPI.dll
 C:\Users\rakes\OneDrive\Desktop\Dotnet\UserAPI\obj\Debug\net6.0\ref\UserAPI.dll
 C:\Users\rakes\OneDrive\Desktop\Dotnet\UserAPI\obj\Debug\net6.0\UserAPI.pdb
 C:\Users\rakes\OneDrive\Desktop\Dotnet\UserAPI\obj\Debug\net6.0\UserAPI.genruntimeconfig.cache
+C:\Users\rakes\OneDrive\Desktop\Dotnet\UserAPI\obj\Debug\net6.0\UserAPI.csproj.AssemblyReference.cache
