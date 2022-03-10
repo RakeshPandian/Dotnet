@@ -4,7 +4,6 @@ C:\Users\rakes\OneDrive\Desktop\Dotnet\UserAPI\bin\Debug\net6.0\UserAPI.exe
 C:\Users\rakes\OneDrive\Desktop\Dotnet\UserAPI\bin\Debug\net6.0\UserAPI.deps.json
 C:\Users\rakes\OneDrive\Desktop\Dotnet\UserAPI\bin\Debug\net6.0\UserAPI.runtimeconfig.json
 C:\Users\rakes\OneDrive\Desktop\Dotnet\UserAPI\bin\Debug\net6.0\UserAPI.dll
-C:\Users\rakes\OneDrive\Desktop\Dotnet\UserAPI\bin\Debug\net6.0\ref\UserAPI.dll
 C:\Users\rakes\OneDrive\Desktop\Dotnet\UserAPI\bin\Debug\net6.0\UserAPI.pdb
 C:\Users\rakes\OneDrive\Desktop\Dotnet\UserAPI\bin\Debug\net6.0\DnsClient.dll
 C:\Users\rakes\OneDrive\Desktop\Dotnet\UserAPI\bin\Debug\net6.0\Microsoft.OpenApi.dll
@@ -41,3 +40,4 @@ C:\Users\rakes\OneDrive\Desktop\Dotnet\UserAPI\obj\Debug\net6.0\ref\UserAPI.dll
 C:\Users\rakes\OneDrive\Desktop\Dotnet\UserAPI\obj\Debug\net6.0\UserAPI.pdb
 C:\Users\rakes\OneDrive\Desktop\Dotnet\UserAPI\obj\Debug\net6.0\UserAPI.genruntimeconfig.cache
 C:\Users\rakes\OneDrive\Desktop\Dotnet\UserAPI\obj\Debug\net6.0\UserAPI.csproj.AssemblyReference.cache
+C:\Users\rakes\OneDrive\Desktop\Dotnet\UserAPI\obj\Debug\net6.0\refint\UserAPI.dll

@@ -49,7 +49,7 @@ public class UsersController : ControllerBase
     {
         if (string.IsNullOrEmpty(newUser.Email))
         {
-            ModelState.AddModelError("Email", "Employee is required");
+            ModelState.AddModelError("Email", "Email is required");
             return BadRequest(ModelState);
         }
         await _userService.CreateAsync(newUser);
@@ -68,9 +68,9 @@ public class UsersController : ControllerBase
             return NotFound();
         }
 
-        if (string.IsNullOrEmpty(user.Email))
+        if (string.IsNullOrEmpty(updatedUser.Email))
         {
-            ModelState.AddModelError("Email", "Employee is required");
+            ModelState.AddModelError("Email", "Email is required");
             return BadRequest(ModelState);
         }
 
@@ -78,7 +78,7 @@ public class UsersController : ControllerBase
 
         await _userService.UpdateAsync(id, updatedUser);
 
-        return NoContent();
+        return CreatedAtAction(nameof(Get), new { id = user.Id }, updatedUser);
     }
 
     [HttpDelete("{id:length(24)}")]
